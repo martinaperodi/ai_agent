@@ -1,0 +1,102 @@
+text,intent
+"Vorrei sapere dove si trova il mio ordine #12345",order_tracking
+"Dove si trova la mia spedizione?",order_tracking
+"Quando arriva il pacco ordinato ieri?",order_tracking
+"Potete dirmi a che punto è la consegna dell'ordine #88219?",order_tracking
+"Non ho ancora ricevuto il tracking number per la spedizione",order_tracking
+"Vorrei tracciare il mio pacco con codice ORD-1029",order_tracking
+"A che ora passa il corriere per la consegna?",order_tracking
+"Il mio ordine #99812 risulta spedito ma non arriva",order_tracking
+"Potete darmi notizie sul pacco ordinato lunedì?",order_tracking
+"Vorrei verificare lo stato di avanzamento del mio acquisto",order_tracking
+"Mi inviate il link per il tracciamento della spedizione?",order_tracking
+"Dove si trova adesso il corriere con il mio pacco?",order_tracking
+"Quando è prevista la consegna dell'ordine #55412?",order_tracking
+"Il codice di tracciamento non funziona, potete controllare?",order_tracking
+"Vorrei sapere se il pacco #44102 è già stato spedito",order_tracking
+"A che punto è la lavorazione del mio ordine?",order_tracking
+"Dov'è finito il mio pacco?",order_tracking
+"Vorrei notizie sulla spedizione numero #77312",order_tracking
+"Voglio cancellare il mio ordine #99812",cancel_order
+"Annulla l'acquisto appena fatto per favore",cancel_order
+"Ho cambiato idea, posso cancellare il pacco prima che parta?",cancel_order
+"Vorrei annullare l'ordine effettuato questa mattina",cancel_order
+"Come posso cancellare una prenotazione di acquisto?",cancel_order
+"Desidero annullare l'ordine #33412 immediatamente",cancel_order
+"Non voglio più ricevere l'articolo ordinato, cancellatelo",cancel_order
+"È ancora possibile annullare la spedizione dell'ordine #11204?",cancel_order
+"Vorrei bloccare l'ordine prima della spedizione",cancel_order
+"Annullate subito il mio acquisto numero #55192",cancel_order
+"Ho fatto un errore nell'acquisto, voglio annullarlo",cancel_order
+"Richiedo la cancellazione immediata del mio ordine",cancel_order
+"Posso revocare l'ordine fatto poco fa?",cancel_order
+"Vorrei disdire l'acquisto del prodotto #88123",cancel_order
+"Per favore fermate la spedizione e cancellate l'ordine",cancel_order
+"Non desidero più completare l'ordine #66321",cancel_order
+"Annulla tutto ciò che ho ordinato oggi",cancel_order
+"Vorrei un rimborso per il prodotto difettoso",refund
+"Come posso richiedere il reso e il rimborso?",refund
+"Il pacco è arrivato danneggiato, voglio i soldi indietro",refund
+"Ho restituito l'articolo, quando riceverò il rimborso?",refund
+"Vorrei chiedere il rimborso per l'ordine #44102",refund
+"Il prodotto non funziona, pretendo il riaccredito dei soldi",refund
+"Quanto tempo ci vuole per accreditare un rimborso sulla carta?",refund
+"Ho rispedito indietro la merce, mi rimborsate?",refund
+"Desidero restituire la maglia e riavere i miei soldi",refund
+"Non sono soddisfatto dell'acquisto, chiedo il reso con rimborso",refund
+"Come funziona la procedura di reso e rimborso?",refund
+"Vorrei restituire l'oggetto #90123 e ricevere l'importo pagato",refund
+"L'articolo ricevuto è diverso dalla descrizione, voglio essere rimborsato",refund
+"Avete già accreditato il rimborso per il reso di settimana scorsa?",refund
+"Chiedo il riaccredito della somma pagata per l'ordine errato",refund
+"Vorrei restituire l'ordine #12093 e ricevere la nota di credito",refund
+"Il prodotto si è rotto subito, vorrei il rimborso completo",refund
+"L'app continua a piantarsi quando provo a pagare",technical_support
+"Non riesco ad accedere al mio account, mi dà errore password",technical_support
+"Il sito non carica la pagina del carrello",technical_support
+"Ho problemi tecnici con il login sull'applicazione",technical_support
+"Durante il checkout la schermata si blocca",technical_support
+"Non ricevo l'email con il codice di verifica OTP",technical_support
+"L'applicazione crasha ogni volta che la apro sul telefono",technical_support
+"Non mi fa inserire la carta di credito per completare il pagamento",technical_support
+"Impossibile effettuare l'accesso, mi dice utente bloccato",technical_support
+"C'è un bug sul sito che impedisce di confermare l'ordine",technical_support
+"La pagina di pagamento restituisce un errore 500",technical_support
+"L'app mi disconnette in automatico ogni cinque minuti",technical_support
+"Non riesco a ripristinare la mia password dimenticata",technical_support
+"Ho un problema tecnico con la schermata dei dati personali",technical_support
+"Il pulsante Paga Ora non reagisce al click",technical_support
+"Ricevo un errore di connessione quando provo ad accedere",technical_support
+"L'applicazione iOS non si aggiorna e segnala un errore",technical_support
+"Devo cambiare l'indirizzo di spedizione per l'ordine",change_address
+"Ho sbagliato via di consegna, come la modifico?",change_address
+"Vorrei modificare il recapito per il mio pacco #12345",change_address
+"Posso aggiornare l'indirizzo della consegna prima che spedite?",change_address
+"Ho inserito il CAP errato nell'ordine #88123, potete correggerlo?",change_address
+"Vorrei spedire l'ordine a un altro indirizzo, come si fa?",change_address
+"Devo cambiare la via di destinazione della mia spedizione",change_address
+"Modificate l'indirizzo di consegna per l'ordine #55912",change_address
+"Ho cambiato casa, devo aggiornare l'indirizzo del pacco in viaggio",change_address
+"Invece che a casa vorrei ricevere il pacco in ufficio, è possibile?",change_address
+"Come si modifica l'indirizzo sul mio profilo e negli ordini attivi?",change_address
+"Vorrei far consegnare l'ordine a un vicino, cambio indirizzo",change_address
+"Ho scritto male la città di spedizione, come posso modificarla?",change_address
+"Potete cambiare il civico di consegna prima della spedizione?",change_address
+"L'indirizzo inserito durante il checkout è sbagliato, correggetelo",change_address
+"Ho bisogno di variare la destinazione del mio pacco #33120",change_address
+"Vorrei modificare la via per il pacco in arrivo domani",change_address
+"Vorrei parlare con un operatore umano",human_agent
+"Passami un assistente del servizio clienti",human_agent
+"Non voglio parlare con un robot, mettimi in contatto con una persona",human_agent
+"Ho bisogno di parlare con un consulente reale",human_agent
+"Potete trasferirmi la chiamata a un operatore?",human_agent
+"Voglio il supporto di un agente in carne ed ossa",human_agent
+"L'assistente virtuale non capisce, passami una persona",human_agent
+"Come posso contattare un operatore telefonico del servizio clienti?",human_agent
+"Avrei bisogno di assistenza da un operatore umano",human_agent
+"Mettimi in contatto con il servizio clienti in chat dal vivo",human_agent
+"Voglio parlare con il responsabile del supporto",human_agent
+"Questo bot non risolve il mio problema, voglio un umano",human_agent
+"Trasferisci la conversazione a un vostro operatore",human_agent
+"C'è una persona disponibile con cui posso chattare ora?",human_agent
+"Desidero parlare direttamente con il vostro personale",human_agent

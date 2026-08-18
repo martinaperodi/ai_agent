@@ -1,0 +1,16 @@
+intent-classifier/
+├── data/
+│   └── intents.csv            # Unified dataset (Italian utterances and intents)
+├── models/                    # Saved model artifacts (.joblib, .pt, etc.)
+├── src/
+│   ├── __init__.py
+│   ├── baseline_sklearn.py    # Phase 1: TF-IDF + Logistic Regression
+│   ├── nlp_spacy.py           # Phase 2: spaCy NER & NLTK Preprocessing
+│   ├── model_pytorch.py       # Phase 3: PyTorch Custom Neural Network
+│   ├── model_tf.py            # Phase 3: TensorFlow/Keras Architecture
+│   └── model_hf.py            # Phase 4: Hugging Face Transformer Fine-Tuning
+├── app/
+│   └── main.py                # FastAPI Service
+├── client_test.py             # HTTP Client test script
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project documentation
