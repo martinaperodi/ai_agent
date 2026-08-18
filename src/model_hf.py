@@ -25,7 +25,7 @@ def train_hf_model(
 
     # 2. Caricamento Tokenizer e Modello Pre-addestrato di Hugging Face
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
-    print(f"📦 Caricamento modello e tokenizer Hugging Face: {model_name}...")
+    print(f"Caricamento modello e tokenizer Hugging Face: {model_name}...")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     num_labels = len(label_encoder.classes_)
@@ -53,7 +53,7 @@ def train_hf_model(
     batch_size = 8
     num_train_samples = len(X_train)
 
-    print("\n🚀 Inizio Fine-Tuning del Transformer Hugging Face...\n")
+    print("\nInizio Fine-Tuning del Transformer Hugging Face...\n")
 
     for epoch in range(1, epochs + 1):
         total_loss = 0.0
@@ -111,8 +111,8 @@ def train_hf_model(
     }
     joblib.dump(artifacts, artifacts_save_path)
 
-    print(f"✅ Modello Hugging Face e Tokenizer salvati in: {model_save_dir}")
-    print(f"✅ Artefatti salvati in: {artifacts_save_path}")
+    print(f"Modello Hugging Face e Tokenizer salvati in: {model_save_dir}")
+    print(f"Artefatti salvati in: {artifacts_save_path}")
 
 
 if __name__ == "__main__":
