@@ -14,7 +14,7 @@ test_queries = [
 
 
 def test_intent_api():
-    print("🚀 Inizio test delle chiamate all'API FastAPI...\n")
+    print("Inizio test delle chiamate all'API FastAPI...\n")
 
     for text in test_queries:
         payload = {"text": text}
@@ -24,17 +24,17 @@ def test_intent_api():
 
             if response.status_code == 200:
                 data = response.json()
-                print(f"📝 Testo:      '{data['text']}'")
-                print(f"🎯 Intent:     {data['intent']}")
-                print(f"📊 Confidence: {data['confidence']:.2%}")
-                print(f"🧩 Entità:     {data['entities']}")
+                print(f"Testo:      '{data['text']}'")
+                print(f"Intent:     {data['intent']}")
+                print(f"Confidence: {data['confidence']:.2%}")
+                print(f"Entità:     {data['entities']}")
                 print("-" * 60)
             else:
-                print(f"❌ Errore HTTP {response.status_code}: {response.text}")
+                print(f"Errore HTTP {response.status_code}: {response.text}")
 
         except requests.exceptions.ConnectionError:
             print(
-                "❌ Impossibile connettersi all'API. Assicurati che Uvicorn sia attivo su http://127.0.0.1:8000"
+                "Impossibile connettersi all'API. Assicurati che Uvicorn sia attivo su http://127.0.0.1:8000"
             )
             break
 
